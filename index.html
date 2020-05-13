@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XSS Select Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+        }
+        a {
+            width: 50vw;
+            height: 100vh;
+            text-align: center;
+            line-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+<a href="./WithXSS1.php">With XSS</a>
+<a href="./WithoutXSS.php">Without XSS</a>
+</body>
+</html>
